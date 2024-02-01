@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segar Sejahtera</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--Import logo dari fontawesome-->
+    <script src="https://kit.fontawesome.com/c82653b685.js" crossorigin="anonymous"></script>
+    <!--Navigasi-->
+        <nav class="navigasi">
+            <p class="logo">Segar Sejahtera</p>
+            <ul class="navsi">
+                <li><a href="">Home</a></li>
+                <li><a href="">Our Package</a></li>
+                <li><a class="contact" href="">Call Us</a></li>
+            </ul>
+        </nav>
+
+        <!--Title-->
+        <main>
+            <h1 class="title">Top Rated E-Groceries Shop In <br>Indonesian</h1>
+            <p class="subtitle">Every Day with best ingredients</p>
+        </main>
+
+        <!--Konten warna : https://palettes.shecodes.io/palettes/1577-->
+        <main class="konten">
+            <div class="gambar">
+                <div class="borderGambar">
+                    <img class="gambar1" src="https://www.shutterstock.com/image-photo/fresh-fruits-background-juicy-variety-600nw-252318739.jpg" alt="">
+                    <img class="gambar1" src="https://www.bhinneka.com/blog/wp-content/uploads/2021/12/cara-memilih-sayuran-yang-baik-500x334.jpeg" alt="">
+                    <img class="gambar1" src="https://o-cdn-cas.sirclocdn.com/parenting/images/buah1.width-800.format-webp.webp" alt="">
+                    <img class="gambar1" src="https://asset.kompas.com/crops/DAT0bF9Dp21QqlgqXD-UcsBpxY4=/20x0:992x648/750x500/data/photo/2018/01/14/2342554562.jpg" alt="">
+                    <button class="nambah" onclick="plusDivs(1)"> < </button>
+                    <button class="kurang" onclick="plusDivs(-1)"> > </button>
+                </div>
+                <p class="subtitle2">"Setiap hari beli sayur dan buah yang fresh disini!"</p>
+                <div class="user">
+                        <div class="user1"><i class="fa-regular fa-user fa-2x"></i></div>
+                        <div class="orang">
+                            <div class="namaUser">Florence Hughes</div>
+                            <div class="kerja">Ibu Rumah Tangga, 28</div>
+                        </div>
+                    <h2 class="title3">Benefits of using Segar Sejahtera:</h2>
+                    <div class="benefits">
+                        <div class="benefits1">
+                            <div class="logoben1"><i class="fa-solid fa-1 fa-2x"></i></div>
+                            <div class="ben1def"> Fast Delivery</div>
+                        </div>
+                        <div class="benefits2">
+                            <div class="logoben2"><i class="fa-solid fa-2 fa-2x"></i></i></div>
+                            <div class="ben2def"> Fresh Vegetables and Fruits</div>
+                        </div>
+                        <div class="benefits3">
+                            <div class="logoben3"><i class="fa-solid fa-3 fa-2x"></i></i></div>
+                            <div class="ben3def"> Free Delivery Fee</div>
+                        </div>
+                        <div class="benefits4">
+                            <div class="logoben4"><i class="fa-solid fa-4 fa-2x"></i></i></div>
+                            <div class="ben4def"> 24 Hours Customer Service</div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="form">
+                <div class="form1">
+                    <h1 class="contact1">Contact Us</h1>
+                    <p class="sales">Our sales will contact you within 1 x 24 hours</p>
+                    <form class="cobaForm">
+                        <label for="namee">Your Name:</label>
+                        <input type="text" name="" id="namee" placeholder=" First and last name">
+                        <p id="name-error" class="error-message"></p>
+
+                        <label for="email">Email Address:</label>
+
+                        <input type="text" name="" id="emaill" placeholder=" example@gmail.com">
+                        <p id="email-error" class="error-message"></p>
+                        <label for="barang">What are you interested in?</label>
+                        <select id="barang">
+                            <option value="sayuran">Sayuran</option>
+                            <option value="buah">Buah-buahan</option>
+                            <option value="" hidden selected>Please select</option>
+                        </select>
+                        <p id="barang-error" class="error-message"></p>
+
+                        <button id="tombol-kirim" type="button" class="send">SEND</button>
+                    </form>
+                </div>
+            </div>
+        </main>
+        <div class="package">Our Package</div>
+        <div class="isiPackage1">
+            <div class="isiPack1">
+                <div class="logopack1"><i class="fa-regular fa-lightbulb fa-2x"></i></div>
+                <div class="pack1def">
+                    <p class="titlepack1">Fresh Vegetables</p>
+                    <p>Sayuran segar langsung dari sumber pertanian terbaik</p></div>
+            </div>
+            <div class="isiPack2">
+                <div class="logopack2"><i class="fa-regular fa-lightbulb fa-2x"></i></div>
+                <div class="pack2def">
+                    <p class="titlepack2">Fresh Fruits</p>
+                    <p>Buah dengan kualitas terbaik dari local atau import dan harga yang menarik</p></div>
+            </div>
+            <div class="isiPack3">
+                <div class="logopack3"><i class="fa-regular fa-lightbulb fa-2x"></i></div>
+                <div class="pack3def">
+                    <p class="titlepack3">Instant Delivery</p>
+                    <p>Dikirim langsung oleh kurir yang telah ditraining dengan SOP untuk menjaga kondisi belanja kamu</p></div>
+            </div>
+        </div>
+        <div class="isiPackage2">
+            <div class="isiPack4">
+                <div class="logopack4"><i class="fa-solid fa-star fa-2x"></i></div>
+                <div class="pack4def">
+                    <p class="titlepack4">Kitchen Ingredient</p>
+                    <p>Bumbu dapur lengkap untuk keperluan memasakmu</p></div>
+            </div>
+            <div class="isiPack5">
+                <div class="logopack5"><i class="fa-solid fa-star fa-2x"></i></div>
+                <div class="pack5def">
+                    <p class="titlepack5">Kitchen Set</p>
+                    <p>Semua jenis alat masak dengan kualitas baik untuk membantumu memasak</p></div>
+            </div>
+            <div class="isiPack6">
+                <div class="logopack6"><i class="fa-solid fa-star fa-2x"></i></div>
+                <div class="pack6def">
+                    <p class="titlepack6">Bunding Set</p>
+                    <p>Bingung masak apa? sudah tersedia paket untuk kamu masak di dapur mu</p></div>
+            </div>
+        </div>
+        <div class="call">
+            <h1 class="title4">Order now!!!</h1>
+            <p class="subtitle5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias vero voluptates sed totam. Nostrum, earum distinctio ad consequuntur doloribus repellendus eaque dolorem iusto maiores illum eius voluptas autem suscipit quis?</p>
+            <button class="send1">CALL TO ACTION</button>
+        </div>
+        <footer class="akhir">
+            <p class="title6">Segar Sejahtera</p>
+            <div class="term">
+                <p class="term1">Terms of service</p>
+                <p>Privacy Policy</p>
+            </div>
+            <div class="copyright">
+                <div class="logo22"><i class="fa-regular fa-copyright"></i></div>
+                <p class="subtitle22">2024 Segar Sejahtera</p>
+            </div>
+        </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
