@@ -18,6 +18,10 @@ function showDivs(n){
 
 }
 
+setInterval(() => {
+    plusDivs(1);
+}, 4000);
+
 const inputName = document.getElementById('namee');
 const inputEmail = document.getElementById('emaill');
 const inputBarang = document.getElementById('barang')
